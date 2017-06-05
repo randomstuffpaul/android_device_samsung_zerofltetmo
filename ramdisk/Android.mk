@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter nobleltetmo, $(TARGET_DEVICE)),)
+ifneq ($(filter zerofltetmo, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE		:= init.baseband.rc

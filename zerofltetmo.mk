@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/nobleltetmo
+LOCAL_PATH := device/samsung/zerofltetmo
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -14,4 +14,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/nobleltetmo/nobleltetmo-vendor.mk)
+$(call inherit-product, vendor/samsung/zerofltetmo/zerofltetmo-vendor.mk)
