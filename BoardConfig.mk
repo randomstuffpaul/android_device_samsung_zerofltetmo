@@ -1,16 +1,16 @@
-LOCAL_PATH := device/samsung/nobleltetmo
+LOCAL_PATH := device/samsung/zerofltetmo
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_nobleltetmo_defconfig
+TARGET_KERNEL_CONFIG := lineageos_zerofltetmo_defconfig
 
 # RIL
 BOARD_MODEM_TYPE := ss333
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := nobleltetmo,noblelte
+TARGET_OTA_ASSERT_DEVICE := zerofltetmo,zeroflte,zeroltetmo,zerolte
 
 # /proc/partitions * 2 (why?) * BLOCK_SIZE (512) = size in bytes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 29360128
@@ -24,4 +24,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 58917388288 #64GB
 BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
 
 # Inherit common board flags
-include device/samsung/noblelte-common/BoardConfigCommon.mk
+include device/samsung/zero-common/BoardConfigCommon.mk
