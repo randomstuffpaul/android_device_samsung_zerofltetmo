@@ -1,3 +1,2 @@
 # Audio firmware
-etc/firmware/audience-es804-data.bin
 etc/firmware/audience-es804-fw.bin
