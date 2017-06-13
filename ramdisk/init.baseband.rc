@@ -80,7 +80,7 @@ service DIAG-daemon /system/bin/diagexe
     group system radio inet net_raw
 
 on property:ro.debug_level=0x494d
-	write /d/tracing/buffer_size_kb 1408
-        write /d/tracing/events/modem_if/mif_log/enable 1
-        write /d/tracing/tracing_on 1
-        write /sys/module/modem_utils/parameters/dflags 13
+    write /d/tracing/buffer_size_kb 1408
+    write /d/tracing/events/modem_if/mif_log/enable 1
+    write /d/tracing/tracing_on 1
+    write /sys/module/modem_utils/parameters/dflags 13
