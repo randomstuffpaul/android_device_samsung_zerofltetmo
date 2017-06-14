@@ -13,7 +13,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_zerofltetmo
-PRODUCT_DEVICE := zeroltetmo
+PRODUCT_DEVICE := zerofltetmo
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G920T
 PRODUCT_MANUFACTURER := samsung
