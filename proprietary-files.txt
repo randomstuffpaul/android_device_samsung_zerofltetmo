@@ -11,4 +11,4 @@ lib64/libril.so
 lib64/libreference-ril.so
 lib64/libsecnativefeature.so
 lib64/libsec-ril.so
--sbin/cbd:rootfs
+-sbin/cbd:rootfs|47d6cdb71eacdc5ff6f8ca2ffacba56dfd0265d8
